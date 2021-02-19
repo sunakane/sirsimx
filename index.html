@@ -75,6 +75,11 @@
                         <input type="range" id="recoverytimeinmillis" min="1000" max="5000" step="100" value="2000">
                         <span id="rtmax" class="maxspan"></span><span id="rtactval" class="actspan"></span>
 
+                        <label for="detectionsuccessrate">Detection Success Rate</label>
+                        <span id="drmin" class="minspan"></span>
+                        <input type="range" id="detectionsuccessrate" min="0" max="1" step="0.01" value="0.5">
+                        <span id="drmax" class="maxspan"></span><span id="dractval" class="actspan"></span>
+
                         <label for="speed">speed</label>
                         <span id="spmin" class="minspan"></span>
                         <input type="range" id="speed" min="1" max="5" step="0.1" value="2">
@@ -99,8 +104,11 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/p5@1.0.0/lib/p5.min.js"></script>
     <script src="scripts/alert.js"></script>
-    <script src="scripts/sirsim.min.js"></script>
-    <script src="scripts/graphp5.min.js"></script>
+    <!-- <script src="scripts/sirsim.min.js"></script> -->
+    <script src="scripts/norm.js"></script>
+    <script src="scripts/sirsim.js"></script>
+    <!-- <script src="scripts/graphp5.min.js"></script> -->
+    <script src="scripts/graphp5.js"></script>
     <script src="scripts/startsim.js"></script>
     <script src="scripts/form.js"></script>
 </body>
