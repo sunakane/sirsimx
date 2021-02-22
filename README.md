@@ -1,7 +1,8 @@
 # sirsimx
 
 This project reproduces the [SIR Model](https://en.wikipedia.org/wiki/Compartmental_models_in_epidemiology#The_SIR_model "SIR Model Wikipedia") for spread of diseases using HTML canvas and the JavaScript [p5.js](https://p5js.org/) library. Some scripts were minified with Google's [Closure Compiler](https://developers.google.com/closure/compiler).<br>
-**Forked from lorenzofelletti/sirsimx**
+
+**This Repository is forked from lorenzofelletti/sirsimx**
 
 ## Simple SIR Model Simulation
 
@@ -10,6 +11,7 @@ A box simulates the space where the individuals - represesented by the balls - o
 - Susceptible (S) - individuals that haven't contracted the disease
 - Infectious (I) - individuals that has the disease and can spread it to others
 - Recovered (R) - ex-infectious that no longer have the disease, can't spread it and are now immune to it.
+- Quarantined (Q) - individuals that quarantine and no longer spread the disease
 
 ## Final Result
 
